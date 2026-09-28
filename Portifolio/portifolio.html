@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio</title>
+</head>
+<body>
+
+<header>
+    <h1 style="color: rgb(137, 82, 188);">Luigi Teixeira Marusso - Desenvolvedor Full-Stack </h1>
+
+<nav style="color: rgb(137, 82, 188);">
+            <ul>
+                <li><a href= "#Sobre" >Sobre</a></li>
+                <li><a href= "#Projetos" >Projetos</a></li>
+                <li><a href= "#Contato" >Contato</a></li>
+            </ul>
+        </nav>
+
+        <!-- Icones de contato que quando são selecionados é direcionado para a pagina -->
+
+<div data-importer="socials" align="center">
+  <a href="https://www.instagram.com/luigimarusso__/" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=purple&logoColor=white&labelColor=purple&style=for-the-badge" height="25" alt="instagram logo"  />
+  </a>
+  <a href="https://mail.google.com/mail/u/1/#inbox" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=purple&logoColor=white&labelColor=purple&style=for-the-badge" height="25" alt="gmail logo"  />
+  </a>
+  <a href="https://www.linkedin.com/in/luigi-teixeira-marusso-44b620427/?trk=li_LOL_SPIN_global_careers_jobsgtm_conv_acq_july2022_spinv1" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=purple&logoColor=white&labelColor=purple&style=for-the-badge" height="25" alt="linkedin logo"  />
+  </a>
+</div>
+</header>
+
+<!-- Informações sobre mim, trabalhando as tags de HTML e CSS -->
+<hr>
+<h2 style="color: #301d42;">Sobre Mim</h2>
+
+<img src="assents/Minha_foto.jpg" alt="Foto de Luigi Teixeira Marusso" width="250">
+
+<p style="color: rgb(0, 0, 0);">Sou estudante de <b>Desenvolvimento de Sistemas</b> na Escola SENAI A. Jacob Lafer </p>
+
+<p> Tenho conhecimento nas áreas de <i> HTML, CSS, PHP e Banco de Dados</i> </p>
+
+<h3 style="color: #301d42;">Minhas Habilidades: </h3>
+    
+    <ul style="list-style-type: disc;">
+        <li>HTML 5</li>
+        <li>CSS 3</li>
+        <li>PHP</li>
+        <li>Banco de Dados</li>
+    </ul>
+
+<div>
+     <img width="17" />
+  <img src="https://skillicons.dev/icons?i=github" height="40" alt="github logo"  />
+  <img width="17" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="40" alt="php logo"  />
+  <img width="17" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
+  <img width="17" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css logo"  />
+</div>
+
+<hr>
+
+<h2 style="color: #301d42;">Meus Projetos</h2>
+
+<table style="border-color: rgb(137, 82, 188)" border="3">
+        <!-- Cabeçalho da tabela -->
+    <thead>
+            <tr>
+                <th>   Projetos       </th>
+                <th>   Tecnologias    </th>
+                <th>   Status         </th>
+                <th>   Link           </th>
+        </tr>
+    </thead>
+        <!-- Corpo da tabela -->
+        <tbody>
+            <!-- Linha do corpo -->
+            <tr>
+                <td>QR Code Studio</td>
+                <td>HTML, CSS e Java</td>
+                <td>Concluido</td>
+                <td><a href="https://github.com/Luigins/Leitor-e-Gerador-de-QR-code" target="_blank">Ver Projeto</a></td>
+        </tr>
+            <tr>
+                <td>Gerador de Senhas Seguras</td>
+                <td>HTML, CSS e Java</td>
+                <td>Concluido</td>
+                <td><a href="https://github.com/Luigins/Gerador-de-senhas-aleatorias" target="_blank">Ver Projeto</a></td>
+        </tr>
+            <tr>
+                <td>Mini Game do Amor</td>
+                <td>HTML, CSS e Java</td>
+                <td>Concluido</td>
+                <td><a href="https://github.com/Luigins/Joguinho-0.6" target="_blank">Ver Projeto</a></td>
+        </tr>
+            <tr>
+                <td>Projeto Extensão MEME</td>
+                <td>HTML, CSS e Java</td>
+                <td>Concluido</td>
+                <td><a href="https://github.com/Luigins/Projeto-Extensao-Almir" target="_blank">Ver Projeto</a></td>  
+
+        </tr>
+        </tbody>
+    </table> <br><br>
+<hr>
+    <h2 style="color: #301d42;">Entre em Contato</h2>
+
+    <form action="processar.php" method="POST">
+
+        <!-- Campo de texto simples -->
+        <label for="nome">Nome Completo:</label><br>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <!-- Campo de email com validação -->
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+         <!-- Lista de seleção (select) -->
+         <label for="Assunto">Assunto: </label><br>
+         <select id="Assunto" name="Assunto">
+            <option value="">Selecione um Assunto</option>
+            <option value="OE">Oportunidade de Emprego</option>
+            <option value="PP">Proposta de Projeto</option>
+            <option value="CG">Contato Geral</option>
+        </select><br><br>
+
+          <!-- Área de texto -->
+         <label for="comentarios">Sugestões:</label><br>
+         <textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea><br><br>
+
+          <!-- Botoes do formulário -->
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+    </form>
+<hr>
+<footer>
+    <p>&copy; 2026 Meta. Desenvolvimento durante o curso do SENAI.</p>
+    <hr>
+        <address>
+            <a href="marussoherbert@gmail.com">Meu@E-mail</a> | 
+            <a href="(11) 99666-6660.">Meu@Numero</a> </a>
+        </address>
+</footer>
+</body>
+</html>
